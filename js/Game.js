@@ -199,7 +199,7 @@ class Game {
       collected.remove()
    })
    if(player.fuel > 0 && !this.playerMoving) {
-    player.fuel -=0.8
+    player.fuel -=0.4
    }
   if(player.fuel <= 0){
     gameState = 2
