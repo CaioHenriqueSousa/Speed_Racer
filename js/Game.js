@@ -43,7 +43,7 @@ class Game {
     ];
     
     this.addSprites(coinGroup,10, coinImg,0.07)
-    this.addSprites(fuelGroup,4,fuelImg,0.03)
+    this.addSprites(fuelGroup,10,fuelImg,0.03)
     this.addSprites(obstacleGroup,obstaclesPositions.length, obstacle1Image,0.04,obstaclesPositions)
   }
 
